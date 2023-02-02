@@ -9,6 +9,6 @@ const nam2s = nam2.slice(0,4)
 const unam = nam1s + nam2s
 
 const lower = unam.toLocaleLowerCase();
+rnumber = Math.floor(Math.random()*100) + 1
 
-
-document.getElementById("challenge").innerHTML = (lower);
+document.getElementById("challenge").innerHTML = (lower + rnumber);
